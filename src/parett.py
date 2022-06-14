@@ -1,10 +1,3 @@
-"""
-Created on Thu Apr  7 13:14:05 2022
-
-@author: Louis-Stephane Le Clercq
-@name: PAReTT
-@version: 1.0.1
-"""
 import os
 import shutil
 import winreg
