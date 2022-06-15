@@ -84,6 +84,13 @@ input is given as lower case 'i', 'l', or 'm' (return to main menu)
   
 - Provides option to save results to a file in **.csv** format e.g. **Availability.csv**
   
+e.g.
+  |Species|TimeTree.Data|
+  |---|---|
+  |Setophaga ruticilla|Available|
+  |Hirundo rustica|Available|
+  |Setophaga striata|Available|
+
 </p>
 </details>
 
@@ -94,6 +101,20 @@ input is given as lower case 'i', 'l', or 'm' (return to main menu)
 - Takes a list of species as input to look up divergence times from a **.txt** input file e.g. **Species.txt**
 - Prints divergence time of pair on screen
 - Provides option to save results to a file in **.csv** format e.g. **Output.csv**
+
+e.g.
+ |Taxa1|Taxa2|Div.Time|
+ |---|---|---|
+ |Setophaga ruticilla|Setophaga ruticilla|0|
+ |Setophaga ruticilla|Hirundo rustica|35|
+ |Setophaga ruticilla|Setophaga striata|3.52|
+ |Hirundo rustica|Setophaga ruticilla|35|
+ |Hirundo rustica|Hirundo rustica|0|
+ |Hirundo rustica|Setophaga striata|35|
+ |Setophaga striata|Setophaga ruticilla|3.52|
+ |Setophaga striata|Hirundo rustica|35|
+ |Setophaga striata|Setophaga striata|0|
+
 #### c) Get Evolutionary Timeline
 Brings up the menu options to retrieve the evolutionary timeline:
 ```
@@ -154,6 +175,8 @@ input is given as lower case 't', 's', or 'm' (return to main menu)
 
 #### e) Print citation
 Prints the citation for the TimeTree resource
+>S. Kumar, G. Stecher, M. Suleski, and S.B. Hedges, 2017.  TimeTree: a resource for timelines, timetrees, and divergence times.  Molecular Biology and Evolution 34: 1812-1819,  DOI: [10.1093/molbev/msx116](https://doi.org/10.1093/molbev/msx116)
+
 #### f) Validate datafile
 Brings up the datafile validation menu options
 ```
