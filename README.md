@@ -196,11 +196,30 @@ input is given as lower case 'a', 'b', 'c', or 'm' (return to main menu)
   
 - Takes the output file (.csv) from the divergence time function and checks for any missing values
   
+  e.g. 
+    |Taxa1|Taxa2|Div.Time|
+    |---|---|---|
+    |Setophaga ruticilla|Setophaga ruticilla|0|
+    |Setophaga ruticilla|Hirundo rustica|**NA**|
+    |Setophaga ruticilla|Setophaga striata|3.52|
+    |Hirundo rustica|Setophaga ruticilla|35|
+    |Hirundo rustica|Hirundo rustica|0|
+    |Hirundo rustica|Setophaga striata|**NA**|
+    |Setophaga striata|Setophaga ruticilla|3.52|
+    |Setophaga striata|Hirundo rustica|35|
+    |Setophaga striata|Setophaga striata|0|
+  
 - If no missing values are detected, will print 'No missing values'
   
 - If missing values are detected they are printed to the screen and an attempt will be made to look up those values
   
 - Asks for file name to store the missing values as a **.csv** file e.g. **missing.csv**
+
+  e.g. 
+    |Taxa1|Taxa2|Div.Time|
+    |---|---|---|
+    |Setophaga ruticilla|Hirundo rustica|**35**|
+    |Hirundo rustica|Setophaga striata|**35**|
 </p>
 </details>  
 <details><summary>b) Replace missing</summary>
@@ -211,6 +230,19 @@ input is given as lower case 'a', 'b', 'c', or 'm' (return to main menu)
 - Takes two input files, one with the divergence times and one with the missing values detected using 'Check missing' 
   
 - Asks for file name to store the validated dataset of divergence times
+  
+  e.g. 
+    |Taxa1|Taxa2|Div.Time|
+    |---|---|---|
+    |Setophaga ruticilla|Setophaga ruticilla|0|
+    |Setophaga ruticilla|Hirundo rustica|**35**|
+    |Setophaga ruticilla|Setophaga striata|3.52|
+    |Hirundo rustica|Setophaga ruticilla|35|
+    |Hirundo rustica|Hirundo rustica|0|
+    |Hirundo rustica|Setophaga striata|**35**|
+    |Setophaga striata|Setophaga ruticilla|3.52|
+    |Setophaga striata|Hirundo rustica|35|
+    |Setophaga striata|Setophaga striata|0|
 </p>
 </details>  
 <details><summary>c) View tree</summary>
