@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="parett",
-    version="2.1.1",
+    version="1.0.1",
     author="Louis-Stephane Le Clercq",
     author_email="leclercq.l.s@gmail.com",
     description="Python Automated Retrieval of TimeTree data",
