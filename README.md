@@ -1,4 +1,5 @@
-# PAReTT
+![1355890 (1)](https://user-images.githubusercontent.com/85708751/173954559-8cb43e97-c0c5-4442-9e9a-4bfcc7dbe97f.png) 
+# PAReTT    
 ## Python Automated Retrieval of TimeTree data
 version 1.0.1, Windows OS
 ### Introduction
