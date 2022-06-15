@@ -1,6 +1,6 @@
 # PAReTT
 ## Python Automated Retrieval of TimeTree data
-version 1.0.1
+version 1.0.1, Windows OS
 ### Introduction
 PAReTT is a menu-driven module used to interact with the [Time Tree](http://www.timetree.org/) resource, specifically 
 designed to automate batch retrieval of data for a list of species. Three main types of data can be retrieved using PAReTT:
@@ -11,12 +11,26 @@ When working with a list of species, the best place to start is by using the fir
 of species in the list and removing any species for which data is not available. When retrieving data for longer lists (>5-10)
 server issues may result in missing values which can be checked and replaced using the data validation menu option after the run.
 
-Dependencies:
-- Panda
+**Dependencies:**
+- Python >= 3.6
+- Numpy
+- Pandas
 - BioPython (for handling newick trees)
 - Splinter (for interacting with the server)
 - Geckodriver (Added to PATH)
-  
+
+**Installation:**
+
+After downloading and extracting the zip archive PAReTT can be implemented in by navigating to the directory and using one of two methods:
+```
+python parett.py
+```
+or
+```
+python setup.py install
+python -m parett
+```
+-> This option will install the relevant dependencies automatically
 ### Main menu
 The following options are available through the main menu:
 ```
