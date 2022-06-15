@@ -355,7 +355,7 @@ def evol_timeline():
         print("Done!")
         print()
     elif choice == 'm':
-        main_loop()
+        main()
 
 def time_tree_menu():
     """Menu options for time tree function"""
@@ -438,7 +438,7 @@ def time_tree():
             print("Done!")
             print()
     elif choice == 'm':
-        main_loop()
+        main()
 
 def citation():
     """Prints the citation for the timetree resource"""
@@ -550,7 +550,7 @@ def validate():
         tree = Phylo.read(infile_1, "newick")
         Phylo.draw_ascii(tree)
     elif choice == 'm':
-        main_loop()
+        main()
 
 def get_download_path():
     """Returns the default downloads path for linux or windows"""
@@ -563,7 +563,7 @@ def get_download_path():
     else:
         return os.path.join(os.path.expanduser('~'), 'downloads')
 
-def main_loop():
+def main():
     """The main loop of the script"""
     while True:
         choice = menu_choice()
@@ -589,7 +589,5 @@ def main_loop():
         else:
             print("Invalid choice.")
 
-# The following makes this program start running at main_loop()
-# when executed as a stand-alone program.
 if __name__ == '__main__':
-    main_loop()
+    main()
