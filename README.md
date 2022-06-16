@@ -14,11 +14,11 @@ server issues may result in missing values which can be checked and replaced usi
 
 **Dependencies:**
 - Python >= 3.6
-- Numpy
-- Pandas
-- BioPython (for handling newick trees)
-- Splinter (for interacting with the server)
-- Geckodriver (Added to PATH)
+- Numpy >= 1.20.1
+- Pandas >= 1.2.4
+- Bio >= 1.3.9 (for handling newick trees)
+- Splinter >= 0.17.0 (for interacting with the server)
+- Geckodriver [(Added to PATH)](http://www.learningaboutelectronics.com/Articles/How-to-install-geckodriver-Python-windows.php)
 
 **Installation:**
 
