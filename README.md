@@ -9,8 +9,7 @@ designed to automate batch retrieval of data for a list of species. Three main t
 or a list species, and (3) Time trees of the divergence times, either for all available species within a specified taxon or
 between individual species supplied as a list.
 When working with a list of species, the best place to start is by using the first menu option to check the data availability 
-of species in the list and removing any species for which data is not available. When retrieving data for longer lists (>5-10)
-server issues may result in missing values which can be checked and replaced using the data validation menu option after the run.
+of species in the list and removing any species for which data is not available. 
 
 **Dependencies:**
 - Python >= 3.6
@@ -117,6 +116,8 @@ e.g.
  |Setophaga striata|Setophaga ruticilla|3.52|
  |Setophaga striata|Hirundo rustica|35|
  |Setophaga striata|Setophaga striata|0|
+ 
+ - When retrieving data for longer lists (>5-10) server issues may result in missing values (NA) which can be checked and replaced using the data validation menu option after the run.
 
 #### c) Get Evolutionary Timeline
 Brings up the menu options to retrieve the evolutionary timeline:
