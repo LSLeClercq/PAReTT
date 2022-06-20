@@ -17,7 +17,9 @@ of species in the list and removing any species for which data is not available.
 - Pandas >= 1.2.4
 - Bio >= 1.3.9 (for handling newick trees)
 - Splinter >= 0.17.0 (for interacting with the server)
+- Selenium >= 4.1.5
 - Geckodriver [(Added to PATH)](http://www.learningaboutelectronics.com/Articles/How-to-install-geckodriver-Python-windows.php)
+- [Firefox browser](https://www.mozilla.org/en-US/firefox/new/)
 
 **Installation:**
 
