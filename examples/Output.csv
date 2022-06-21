@@ -1,0 +1,10 @@
+Taxa1,Taxa2,Div.Time
+Setophaga ruticilla,Setophaga ruticilla,0
+Setophaga ruticilla,Hirundo rustica,35
+Setophaga ruticilla,Setophaga striata,3.52
+Hirundo rustica,Setophaga ruticilla,35
+Hirundo rustica,Hirundo rustica,0
+Hirundo rustica,Setophaga striata,35
+Setophaga striata,Setophaga ruticilla,3.52
+Setophaga striata,Hirundo rustica,35
+Setophaga striata,Setophaga striata,0
