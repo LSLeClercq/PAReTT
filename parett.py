@@ -8,7 +8,7 @@ from Bio import Phylo
 from splinter import Browser
 
 print('PAReTT: Python Automated Retrieval from Time Tree (1.0.1)')
-print('Copyright (C) 2022 University of the Free State')
+print('Copyright (C) 2022 Le Clercq')
 print('This is free software.  There is NO warranty; not even for',
       'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.')
 print()
