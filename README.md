@@ -261,3 +261,5 @@ input is given as lower case 'a', 'b', 'c', or 'm' (return to main menu)
 
 #### q) Quit
 Exits program
+
+© 2022 Le Clercq
