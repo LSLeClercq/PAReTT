@@ -6,7 +6,7 @@ version 1.0.1, Windows OS
 ### Introduction
 PAReTT is a menu-driven module used to interact with the [Time Tree](http://www.timetree.org/) resource, specifically 
 designed to automate batch retrieval of data for a list of species. Three main types of data can be retrieved using PAReTT:
-(1) Divergence times, between an individual pair or between all species in a list, (2) Evolutionary timelines, for indivuals
+(1) Divergence times, between an individual pair or between all species in a list, (2) Evolutionary timelines, for individuals
 or a list species, and (3) Time trees of the divergence times, either for all available species within a specified taxon or
 between individual species supplied as a list.
 When working with a list of species, the best place to start is by using the first menu option to check the data availability 
