@@ -35,7 +35,7 @@ python -m parett
 ```
 -> This option will install the relevant dependencies automatically
 
-A pre-compiled stand-alone Windows [executable](https://doi.org/10.5281/zenodo.6653321) is also available. [![DOI](https://img.shields.io/badge/doi-10.5281/zenodo.6653321-orange)](https://doi.org/10.5281/zenodo.6653321)
+A pre-compiled stand-alone Windows executable is also available. [![DOI](https://img.shields.io/badge/doi-10.5281/zenodo.6653321-orange)](https://doi.org/10.5281/zenodo.6653321)
 
 ### Main menu
 The following options are available through the main menu:
