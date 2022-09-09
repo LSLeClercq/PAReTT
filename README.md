@@ -1,8 +1,8 @@
-![1355890 (1)](https://user-images.githubusercontent.com/85708751/173954559-8cb43e97-c0c5-4442-9e9a-4bfcc7dbe97f.png) ![image](https://user-images.githubusercontent.com/85708751/176173704-851e3776-9e22-40eb-a1ec-329db2db4e35.png) <img align="right" src="https://user-images.githubusercontent.com/85708751/176286890-15060001-79ba-4035-a815-e8cf821cec86.png">
+![1355890 (1)](https://user-images.githubusercontent.com/85708751/173954559-8cb43e97-c0c5-4442-9e9a-4bfcc7dbe97f.png) ![image](https://user-images.githubusercontent.com/85708751/176173704-851e3776-9e22-40eb-a1ec-329db2db4e35.png) <img align="right" src="https://user-images.githubusercontent.com/85708751/176286890-15060001-79ba-4035-a815-e8cf821cec86.png"> 
 
 #   
 ## Python Automated Retrieval of TimeTree data
-![Language](https://img.shields.io/badge/Language-Python-yellow)  ![Version](https://img.shields.io/badge/Version-1.0.1-blue) ![Windows](https://img.shields.io/badge/OS-Windows-green) ![License](https://img.shields.io/badge/License-Apache_2.0-red)
+![Language](https://img.shields.io/badge/Language-Python-yellow)  ![Version](https://img.shields.io/badge/Version-1.0.1-purple) ![Windows](https://img.shields.io/badge/OS-Windows-green) ![License](https://img.shields.io/badge/License-Apache_2.0-red) [![DOI](https://zenodo.org/badge/503310621.svg)](https://zenodo.org/badge/latestdoi/503310621-purple)
 ### Introduction
 PAReTT is a menu-driven module used to interact with the [Time Tree](http://www.timetree.org/) resource, specifically 
 designed to automate batch retrieval of data for a list of species. Three main types of data can be retrieved using PAReTT:
