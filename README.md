@@ -16,6 +16,7 @@ of species in the list and removing any species for which data is not available.
 DOI: [10.22541/au.166384820.08397260/v1](https://www.authorea.com/doi/full/10.22541/au.166384820.08397260)
 
 **Dependencies:**
+- OS: Windows
 - Python >= 3.6
 - Numpy >= 1.20.1
 - Pandas >= 1.2.4
