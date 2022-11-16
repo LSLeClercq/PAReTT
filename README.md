@@ -12,6 +12,9 @@ between individual species supplied as a list.
 When working with a list of species, the best place to start is by using the first menu option to check the data availability 
 of species in the list and removing any species for which data is not available. 
 
+**Cite as (preprint):** Le Clercq L.S., Grobler J.P., Kotze A., and Dalton D.L. PAReTT: a Python package for the Automated Retrieval and management of divergence time data from the Time Tree resource. Authorea. September 22, 2022.
+DOI: [10.22541/au.166384820.08397260/v1](https://www.authorea.com/doi/full/10.22541/au.166384820.08397260)
+
 **Dependencies:**
 - Python >= 3.6
 - Numpy >= 1.20.1
