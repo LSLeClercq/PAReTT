@@ -1,13 +1,14 @@
 import os
 import shutil
 import winreg
+import math
 import datetime as tm
 import time as Time
 import pandas as pd
 from Bio import Phylo
 from splinter import Browser
 
-print('PAReTT: Python Automated Retrieval from Time Tree (1.0.1)')
+print('PAReTT: Python Automated Retrieval from Time Tree (1.0.2)')
 print('Copyright (C) 2022 Le Clercq')
 print('This is free software.  There is NO warranty; not even for',
       'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.')
@@ -25,11 +26,12 @@ def menu_choice():
     print("   d) Build a Time Tree")
     print("   e) Print citation")
     print("   f) Validate datafile")
+    print("   g) Calculate Diversification rate (r)")
     print("   q) Quit")
     print("----------------------------------------")
     choice = input("Choice: ")
     print()
-    if choice.lower() in ['*','a','b','c','d','e','f','q']:
+    if choice.lower() in ['*','a','b','c','d','e','f','g','q']:
         return choice.lower()
     else:
         print(choice +"?")
@@ -563,6 +565,25 @@ def get_download_path():
     else:
         return os.path.join(os.path.expanduser('~'), 'downloads')
 
+def diversification_rate():
+    '''Calculates the diversification rate of a species complex based on crown age'''
+    n = input("Number of species (n): ")
+    n = float(n)
+    epsilon = input("Epsilon (extinction rate as fraction): ")
+    epsilon = float(epsilon)
+    time = input("Crown/Clade divergence time: ")
+    time = float(time)
+    if epsilon == 0:
+        rate = (math.log(n) - math.log(2))/time
+    else:
+        rate = 1/time * (math.log(n/2 * (1 - epsilon**2) + 2 * 
+        epsilon + 1/2 * (1 - epsilon) * math.sqrt(n * (n * 
+        epsilon**2 - 8 * epsilon + 2 * n * epsilon + 
+        n))) - math.log(2))
+    print()
+    print('Diversification rate (r): ' + str(rate))
+    print()
+
 def main():
     """The main loop of the script"""
     while True:
@@ -586,6 +607,8 @@ def main():
             citation()
         elif choice == 'f':
             validate()
+        elif choice == 'g':
+            diversification_rate()
         else:
             print("Invalid choice.")
 

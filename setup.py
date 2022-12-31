@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="parett",
-    version="1.0.1",
+    version="1.0.2",
     author="Louis-Stephane Le Clercq",
     author_email="leclercq.l.s@gmail.com",
     description="Python Automated Retrieval of TimeTree data",
@@ -15,11 +15,11 @@ setuptools.setup(
     url="https://github.com/LSLeClercq/PAReTT",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache-2.0 license",
         "Operating System :: Microsoft :: Windows :: Windows 10",
     ],
     packages=find_packages(),
     install_requires=[
-        'pandas', 'splinter', 'numpy', 'Bio', 'selenium'],
+        'pandas', 'splinter', 'numpy', 'Bio', 'selenium', 'math'],
     python_requires=">=3.6",
 )
