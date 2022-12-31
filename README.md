@@ -2,7 +2,7 @@
 
 #   
 ## Python Automated Retrieval of TimeTree data
-![Language](https://img.shields.io/badge/Language-Python-yellow)  ![Version](https://img.shields.io/badge/Version-1.0.1-purple) ![Windows](https://img.shields.io/badge/OS-Windows-green) ![License](https://img.shields.io/badge/License-Apache_2.0-red) [![DOI](https://zenodo.org/badge/503310621.svg)](https://zenodo.org/badge/latestdoi/503310621-purple)
+![Language](https://img.shields.io/badge/Language-Python-yellow)  ![Version](https://img.shields.io/badge/Version-1.0.2-purple) ![Windows](https://img.shields.io/badge/OS-Windows-green) ![License](https://img.shields.io/badge/License-Apache_2.0-red) [![DOI](https://zenodo.org/badge/503310621.svg)](https://zenodo.org/badge/latestdoi/503310621-purple)
 ### Introduction
 PAReTT is a menu-driven module used to interact with the [Time Tree](http://www.timetree.org/) resource, specifically 
 designed to automate batch retrieval of data for a list of species. Three main types of data can be retrieved using PAReTT:
