@@ -20,6 +20,7 @@ DOI: [10.22541/au.166384820.08397260/v1](https://www.authorea.com/doi/full/10.22
 - Python >= 3.6
 - Numpy >= 1.20.1
 - Pandas >= 1.2.4
+- Math
 - Bio >= 1.3.9 (for handling newick trees)
 - Splinter >= 0.17.0 (for interacting with the server)
 - Selenium >= 4.1.5
@@ -54,10 +55,11 @@ Choose one of the following options?
    d) Build a Time Tree
    e) Print citation
    f) Validate datafile
+   g) Calculate Diversification rate (r)
    q) Quit
 ----------------------------------------
 ```
-input is given as lower case '*','a','b','c','d','e','f', or 'q'
+input is given as lower case '*','a','b','c','d','e','f', 'g', or 'q'
 e.g.
 ```
 Choice: a
@@ -263,6 +265,17 @@ input is given as lower case 'a', 'b', 'c', or 'm' (return to main menu)
 - Takes a newick tree as input and renders a basic display of tree topology
 </p>
 </details>
+
+#### g) Calulate Diversification rate (r)
+
+- Calculates the diversification rate using the Magallon-Sanderson equation (Magallón and Sanderson, 2001)
+- Takes three variables as input:
+
+~ Species number (n)
+
+~ Epsilon or Extinction rate fraction
+
+~ Divergence time (t) as crown/node age
 
 #### q) Quit
 Exits program
