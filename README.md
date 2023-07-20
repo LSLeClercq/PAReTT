@@ -280,4 +280,8 @@ input is given as lower case 'a', 'b', 'c', or 'm' (return to main menu)
 #### q) Quit
 Exits program
 
+## Publications:
+
+Le Clercq, L.-S., Bazzi, G., Cecere, J.G., Gianfranceschi, L., Grobler, J.P., Kotzé, A., Rubolini, D., Liedvogel, M. and Dalton, D.L. Time trees and clock genes: a systematic review and comparative analysis of contemporary avian migration genetics (2023). _Biological Reviews_, 98: 1051-1080. [10.1111/brv.12943](https://doi.org/10.1111/brv.12943)
+
 © 2022 Le Clercq
